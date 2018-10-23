@@ -1,0 +1,10 @@
+﻿【add】
+git add XXX
+git commit -m "XXXXX"
+git push
+
+
+【delete】
+git rm *.*
+git commit -m "XXXX"
+git push
