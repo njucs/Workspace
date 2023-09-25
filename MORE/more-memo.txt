@@ -1,0 +1,20 @@
+
+**文本图像的跨模态理解如何促进LLM？**
+
+1. The Rise and Potential of Large Language Model Based Agents: A Survey
+
+Researchers first divide an image into fixed-size patches and then treat these patches, after
+linear projection, as input tokens for Transformers [291]. In the end, by calculating self-attention
+between tokens, they are able to integrate information across the entire image, resulting in a highly
+effective way to perceive visual content.
+
+Freezing one or both of them during training is a widely adopted paradigm that achieves a balance 
+between training resources and model performance [286]. However, LLMs cannot directly understand the 
+output of a visual encoder, so it’s necessary to convert the image encoding into embeddings that LLMs 
+can comprehend. In other words, it involves aligning the visual encoder with the LLM. This usually 
+requires adding an extra learnable interface layer between them. 
+
+Some researchers adopt a computationally efficient method by using a single projection layer to achieve 
+visual-text alignment, reducing the need for training additional parameters [118; 290; 311]. Moreover, 
+the projection layer can effectively integrate with the learnable interface to adapt the dimensions of 
+its outputs, making them compatible with LLMs [295; 296; 312; 313].
