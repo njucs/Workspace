@@ -2,7 +2,7 @@ import os
 import argparse
 import logging
 import sys
-sys.path.append("..")
+sys.path.append("./MRE")
 
 import torch
 import numpy as np
