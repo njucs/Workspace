@@ -18,4 +18,3 @@ Some researchers adopt a computationally efficient method by using a single proj
 visual-text alignment, reducing the need for training additional parameters [118; 290; 311]. Moreover, 
 the projection layer can effectively integrate with the learnable interface to adapt the dimensions of 
 its outputs, making them compatible with LLMs [295; 296; 312; 313].
-
