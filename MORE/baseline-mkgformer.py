@@ -56,7 +56,6 @@ AUX_PATH = {
     }
 }
 
-
 def set_seed(seed=2021):
     """set random seed"""
     torch.manual_seed(seed)
