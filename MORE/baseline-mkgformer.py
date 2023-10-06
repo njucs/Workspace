@@ -147,6 +147,5 @@ def main():
         torch.cuda.empty_cache()
         # writer.close()
     
-
 if __name__ == "__main__":
     main()
