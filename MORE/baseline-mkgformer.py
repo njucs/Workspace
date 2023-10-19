@@ -146,7 +146,6 @@ def main():
         trainer.train()
         torch.cuda.empty_cache()
         # writer.close()
-    
 
 if __name__ == "__main__":
     main()
