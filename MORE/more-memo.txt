@@ -19,6 +19,3 @@ visual-text alignment, reducing the need for training additional parameters [118
 the projection layer can effectively integrate with the learnable interface to adapt the dimensions of 
 its outputs, making them compatible with LLMs [295; 296; 312; 313].
 
-
-** XX **
-
